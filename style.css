@@ -5,6 +5,7 @@ h1, p {
 svg {
     overflow: visible;
     box-shadow: 0px -0px 10000px transparent;
+    max-width: 100%;
 }
 
 #layer4, #layer5, #layer6, #layer7, #layer8, #layer9 {
