@@ -2,7 +2,7 @@
 
 >Äitienpäivätervehdys 2020
 
-[Original source for this idea](https://medium.theuxblog.com/the-ultimate-guide-to-animating-drawn-text-in-html-with-css-no-jquery-needed-bcdcfdb963d8)
+[Original guide for animating drawn text in HTML](https://medium.theuxblog.com/the-ultimate-guide-to-animating-drawn-text-in-html-with-css-no-jquery-needed-bcdcfdb963d8)
 
 I made these changes to that guide:
 
