@@ -1,6 +1,7 @@
 h1, p {
   text-align: center;
   color: red;
+  font-family: 'Dancing Script', cursive;
 }
 
 svg {
