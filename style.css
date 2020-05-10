@@ -1,0 +1,76 @@
+svg {
+    overflow: visible;
+    box-shadow: 0px -0px 10000px transparent;
+}
+
+#layer4, #layer5, #layer6, #layer7, #layer8, #layer9 {
+    stroke: red;
+    stroke-width: 1px;
+    fill: transparent;
+}
+
+#layer4 {
+    stroke-dasharray: 399px;
+    stroke-dashoffset: -399px;
+    animation: layer4-anim .75s linear 0s forwards;
+}
+
+#layer5 { 
+    stroke-dasharray: 185px; 
+    stroke-dashoffset: -185px;
+    animation: layer5-anim .75s linear 0.8s forwards;
+}
+
+#layer6 { 
+    stroke-dasharray: 432px; 
+    stroke-dashoffset: -432px;
+    animation: layer6-anim .75s linear 1.6s forwards;
+}
+
+#layer7 {
+    stroke-dasharray: 185px;
+    stroke-dashoffset: -185px;
+    animation: layer7-anim .75s linear 2.4s forwards;
+}
+
+#layer8 {
+    stroke-dasharray: 247px;
+    stroke-dashoffset: -247px;
+    animation: layer8-anim .75s linear 3.2s forwards;
+}
+
+#layer9 {
+    stroke-dasharray: 508px;
+    stroke-dashoffset: -508px;
+    animation: layer9-anim .75s linear 4s forwards;
+}
+
+@keyframes layer4-anim {
+    from {stroke-dashoffset: -399px;}
+    to {stroke-dashoffset: 0px;}
+}
+
+@keyframes layer5-anim {
+    from {stroke-dashoffset: -185px;}
+    to {stroke-dashoffset: 0px;}
+}
+
+@keyframes layer6-anim {
+    from {stroke-dashoffset: -432px;}
+    to {stroke-dashoffset: 0px;}
+}
+
+@keyframes layer7-anim {
+    from {stroke-dashoffset: -185px;}
+    to {stroke-dashoffset: 0px;}
+}
+
+@keyframes layer8-anim {
+    from {stroke-dashoffset: -247px;}
+    to {stroke-dashoffset: 0px;}
+}
+
+@keyframes layer9-anim {
+    from {stroke-dashoffset: -508px;}
+    to {stroke-dashoffset: 0px;}
+}
