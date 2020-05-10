@@ -1,9 +1,6 @@
-body {
-  background-color: #adc0de;
-}
-
 h1, p {
   text-align: center;
+  color: red;
 }
 
 svg {
